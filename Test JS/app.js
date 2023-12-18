@@ -25,8 +25,10 @@ else{
 
 
 //3.zadatak
-for(i = 1; i < 9; i++){
+let brBr = 0;
+for(i = 1; brBr < 4; i++){
     if(i % 4 == 0 && i % 6 ==0)
-    console.log(i)
+    console.log(i);
+  brBr++
 
 }
